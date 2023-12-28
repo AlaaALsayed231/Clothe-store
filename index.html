@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clothes store </title>
+
+  
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+</head>
+
+<body>
+   
+    <header>
+    
+        <!-- NAV  -->
+        <div class="nav container">
+            
+
+                <nav class="nav">
+                    <a href="/" class="logo"><img src="assets/img/logo.png" width="60px" height="60px" alt=""></a>
+            
+                    <div class="hamburger">
+                      <span class="line"></span>
+                      <span class="line"></span>
+                      <span class="line"></span>
+                    </div>
+            
+                    <div class="nav__link hide">
+                      <a href="index.html">home</a>
+                      <a href="aboutUs.html">about</a>
+                      <a href="contactUs.html">contact Us</a>
+                    
+                    </div>
+                  </nav>     
+                     
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+
+            <span class="icon-cart">10</span>
+
+            <!-- CART  -->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+
+                <div class="cart-content">
+
+                </div>
+
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+               
+                <button type="button" class="btn-buy">Buy Now</button>
+                <i class='bx bx-x' id="cart-close"></i>
+            </div>
+        </div>
+    </header>
+
+
+<!-- slider..... -->
+<div class="contain">
+    <div id="arrow-left" class="arrow"></div>
+
+    <div id="slider">
+        <div class="slide slide1">
+            <div class="slide-content">
+               
+            </div>
+        </div>
+
+        <div class="slide slide2">
+            <div class="slide-content">
+              
+            </div>
+        </div>
+
+        <div class="slide slide3">
+            <div class="slide-content">
+              
+            </div>
+        </div>
+    </div>
+
+    <div id="arrow-right" class="arrow"></div>
+</div>
+
+
+
+
+    <!-- SHOP SECTION  -->
+    <section class="shop container">
+        <h2 class="section-title">list Products</h2>
+
+        <div class="content-portofolio">
+            <ul>
+                <li class="active">All</li>
+                <li>clothes</li>
+                <li>shose</li>
+                <li>Bages</li>
+                <li>jeans</li>
+                <li>skirts</li>
+            </ul>
+
+        </div>
+
+        <!-- CONTENT  -->
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="assets/img/01.webp" alt="" class="product-img">
+                <h2 class="product-title">D96170</h2>
+                <span class="product-price">$79.5</span>
+                <i onclick="count()" class='bx bx-shopping-bag add-cart'>Add To card</i>
+            </div>
+          
+            <div class="product-box">
+                <img src="assets/img/02.webp" alt="" class="product-img">
+                <h2 class="product-title">Q24940</h2>
+                <span class="product-price">$59.5</span>
+                <i class='bx bx-shopping-bag add-cart'>Add To card</i>
+            </div>
+         
+            <div class="product-box">
+                <img src="assets/img/03.webp" alt="" class="product-img">
+                <h2 class="product-title">K38195</h2>
+                <span class="product-price">$29.5</span>
+                <i class='bx bx-shopping-bag add-cart'>Add To card</i>
+            </div>
+          
+            <div class="product-box">
+                <img src="assets/img/04.webp" alt="" class="product-img">
+                <h2 class="product-title"> R07720</h2>
+                <span class="product-price">$105</span>
+                <i class='bx bx-shopping-bag add-cart'>Add To card</i>
+            </div>
+            
+            <div class="product-box">
+                <img src="assets/img/05 (2).webp" alt="" class="product-img">
+                <h2 class="product-title">PS5258 </h2>
+                <span class="product-price">$95</span>
+                <i class='bx bx-shopping-bag add-cart'>Add To card</i>
+            </div>
+           
+            <div class="product-box">
+                <img src="assets/img/06.webp" alt="" class="product-img">
+                <h2 class="product-title">Ga2358d</h2>
+                <span class="product-price">$1400</span>
+                <i class='bx bx-shopping-bag add-cart'>Add To card</i>
+            </div>
+           
+            <div class="product-box">
+                <img src="assets/img/07.webp" alt="" class="product-img">
+                <h2 class="product-title">No2589 </h2>
+                <span class="product-price">$1700</span>
+                <i class='bx bx-shopping-bag add-cart'>Add To card</i>
+            </div>
+          
+            <div class="product-box">
+                <img src="assets/img/08.webp" alt="" class="product-img">
+                <h2 class="product-title">ch197345</h2>
+                <span class="product-price">$110.5</span>
+                <i class='bx bx-shopping-bag add-cart'>Add To card</i>
+            </div>
+            <div class="product-box">
+                <img src="assets/img/09.webp" alt="" class="product-img">
+                <h2 class="product-title">NLS2222</h2>
+                <span class="product-price">$110.5</span>
+                <i class='bx bx-shopping-bag add-cart'>Add To card</i>
+            </div>
+            <div class="product-box">
+                <img src="assets/img/010.webp" alt="" class="product-img">
+                <h2 class="product-title">tch5483</h2>
+                <span class="product-price">$110.5</span>
+                <i class='bx bx-shopping-bag add-cart'>Add To card</i>
+            </div>
+            <div class="product-box">
+                <img src="assets/img/011.webp" alt="" class="product-img">
+                <h2 class="product-title">UG249761</h2>
+                <span class="product-price">$110.5</span>
+                <i class='bx bx-shopping-bag add-cart'>Add To card</i>
+            </div>
+            <div class="product-box">
+                <img src="assets/img/012.webp" alt="" class="product-img">
+                <h2 class="product-title">hFG2222</h2>
+                <span class="product-price">$110.5</span>
+                <i class='bx bx-shopping-bag add-cart'>Add To card</i>
+            </div>
+            <div class="product-box">
+                <img src="assets/img/013.webp" alt="" class="product-img">
+                <h2 class="product-title">Ap2587 </h2>
+                <span class="product-price">$110.5</span>
+                <i class='bx bx-shopping-bag add-cart'>Add To card</i>
+            </div>
+            <div class="product-box">
+                <img src="assets/img/014.webp" alt="" class="product-img">
+                <h2 class="product-title">Atch2111</h2>
+                <span class="product-price">$110.5</span>
+                <i class='bx bx-shopping-bag add-cart'>Add To card</i>
+            </div>
+            <div class="product-box">
+                <img src="assets/img/015.webp" alt="" class="product-img">
+                <h2 class="product-title">AWa2587h</h2>
+                <span class="product-price">$110.5</span>
+                <i class='bx bx-shopping-bag add-cart'>Add To card</i>
+            </div>
+            <div class="product-box">
+                <img src="assets/img/016.webp" alt="" class="product-img">
+                <h2 class="product-title">Ap2587</h2>
+                <span class="product-price">$110.5</span>
+              
+                <i class='bx bx-shopping-bag add-cart'> Add To card</i>
+            </div>
+        </div>
+    </section>
+<!-- 
+footer -->
+
+    <footer class="social-footer">
+
+      
+        <div class="social-footer-left">
+            <p>&copy; 2023 My Website.</p>
+          
+        </div class="icon">
+      
+         <div class="icon">
+           <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+           <a href="https://www.instagram.com/?hl=en"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
+      
+      </div>
+      <div>
+        
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Back To Top <i class="fa-solid fa-arrow-up"></i> </button>
+        
+      </div>
+      </footer>
+ 
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

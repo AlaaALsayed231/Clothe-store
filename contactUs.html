@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <form>
+<table>
+<tr>
+    
+  <td><label for="name"> Name: </label></td>  
+  <td><input type="text" id="name"  placeholder="please enter your name"><br></td>
+
+</tr>
+
+
+<tr>
+    <td><label for="email"> Email: </label></td>  
+    <td><input type="text" id="email"  placeholder="please enter your email"><br></td>
+  </tr>
+
+  <tr>
+    <td><label for="password"> Password: </label></td>  
+    <td><input type="password" id="password" placeholder="please enter your password"><br></td>
+  </tr>
+    
+
+<tr>
+    <td> <label for="radio">Gender:</label></td>
+    <td>
+        <input type="radio" name="gender" id="male"> <label for="male">Male</label>
+        <input type="radio" name="gender" id="female"> <label for="female">Female</label>
+    </td>
+</tr>
+
+<tr>
+  <td><label for="">Sports:</label></td> 
+  <td>
+      <input type="checkbox" id="tennis" name="check" value="Tennis">
+      <label for="tennis"> Tennis </label>
+      <input type="checkbox"  name="check" id="running" value="Running">
+      <label for="running">Running</label>
+      <input type="checkbox"  name="check" id="football" value="Football"> 
+      <label for="football">Football</label><br>
+  </td> 
+</tr>
+
+<tr>
+    <td><label for="country">Country</label></td>
+    <td>
+        <select name="select" id="select" >
+            <option value=""></option>
+            <option value="Egypt">Egypt</option>
+            <option value="USA">USA</option>
+            <option value="France">France</option>
+            <option value="China">China</option>
+            <option value="India">India</option>
+
+       </select>
+
+    </td>
+</tr>
+
+
+</table>
+ 
+<button id="submit" type="submit" onclick="Submit()">Submit</button>
+<button id="reset" type="reset">reset</button>
+<br>
+
+
+<div class="div" id="div1" >
+<span class="errorMassage" id="nameReq" style="display: none; ">Name is required </span><br>
+<span class="errorMassage" id="passLimt" style="display: none;">Password must be 8 chars at least </span><br>
+<span class="errorMassage" id="sprtLimit" style="display: none;">Please select at two sport </span><br>
+<span class="errorMassage" id="emailValid" style="display: none;">Email not valid</span><br>
+<span class="errorMassage" id="selectGeder" style="display: none;">Please select your gender</span><br>
+<span class="errorMassage" id="selectCoutry" style="display: none;">Please select your country</span><br>
+
+</div>
+
+
+    </form>
+
+
+
+
+
+    <script src="assets/js/demo.js"></script>
+</body>
+</html>
